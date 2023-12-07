@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+
+import Box from "./components/Box";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 
 function App() {
+  const style = {
+    background: 'radial-gradient(50% 50% at 50% 50%, #E0E8F1 0%, #BFCAD6 100%)',
+    height:"100vh"
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={style}>
+      <Navbar/>
+      <Home/>
+      {/* <Box/> */}
     </div>
   );
 }

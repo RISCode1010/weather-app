@@ -1,0 +1,268 @@
+.home {
+  width: 100%;
+  background: radial-gradient(50% 50% at 50% 50%, #E0E8F1 0%, #BFCAD6 100%);
+}
+
+.top_part {
+  display: flex;
+  height: 123px;
+  position: relative;
+}
+
+.location_section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.location_name_section {
+  display: flex;
+  align-items: center;
+}
+
+.location_svg {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.loction_name {
+  margin-left: 10px;
+  color: #1D2540;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.location_position {
+  color: #606060;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search_bar {
+  flex-grow: 1; /* Fill remaining space */
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.20);
+  position: absolute;
+  top: 123px;
+}
+
+.bottom_part {
+  background: #c05959;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.details {
+  width: 100%;
+  height: 275.52px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(51, 153, 110);
+  margin-top: 22px;
+}
+
+.date_section {
+  height: 74.83px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #af59c0;
+}
+
+.detail_heading {
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .top_part {
+    flex-direction: column;
+  }
+
+  .search_bar {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .line {
+    position: static;
+  }
+
+  .bottom_part {
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home{
+  width: 100%;
+  background: radial-gradient(50% 50% at 50% 50%, #E0E8F1 0%, #BFCAD6 100%),
+}
+
+.top_part{
+  display: flex;
+  height: 123px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: aqua; */
+  position: relative;
+}
+
+.location_section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+}
+
+.location_name_section{
+  display: flex;
+  position: relative;
+}
+
+.location_svg{
+  position: absolute;
+  left: 152px;
+  top: 62px;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.loction_name{
+  position: absolute;
+  left: 192px;
+  top: 63px;
+  color: #1D2540;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.location_position{
+  position: absolute;
+  left: 154px;
+  top: 99px;
+  color: #606060;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search_bar{
+  /* width: 50%; */
+  position: absolute;
+  /* background-color: aqua; */
+  /* right: 161px; */
+  left: 952px;
+  top: 58.22px;
+}
+
+.line{
+  width: 1127px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.20);
+  position: absolute;
+  top: 123px;
+  left: 152px;
+}
+
+.bottom_part{
+  background: #c05959;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 51px;
+}
+
+.details{
+  width: 151.933px;
+  height: 275.52px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(51, 153, 110);
+  margin-top: 22px;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.date_section{
+  height: 74.83px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 100%;
+  background: #af59c0;
+}
+
+.detail_heading{
+  /* align-items: center; */
+  /* justify-content: center; */
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+

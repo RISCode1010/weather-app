@@ -1,0 +1,44 @@
+.box{
+    /* margin: 2px 0 0 0; */
+    width: 151.933px;
+    height: 275.52px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: linear-gradient(180deg, #464646 0%, #1D2540 100%);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper_part{
+    height: 74.83px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.weather_type{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 3.4px;
+}
+
+.lower_part{
+    color: #FFF;
+    text-align: center;
+    /* font-family: Roboto; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }

@@ -1,0 +1,141 @@
+.home{
+    width: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #E0E8F1 0%, #BFCAD6 100%),
+}
+
+.top_part{
+    display: flex;
+    height: 123px;
+    width: 100%;
+    justify-content: center;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.innerpart{
+    width: 1127px;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.location_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.location_name_section{
+    display: flex;    
+}
+
+.location_svg{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.loction_name{
+    color: #1D2540;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.location_position{
+    /* position: absolute;
+    left: 154px;
+    top: 99px; */
+    color: #606060;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 7px 0;
+}
+
+.search_bar{
+    /* width: 50%; */
+    /* position: absolute; */
+    /* background-color: aqua; */
+    /* right: 161px; */
+    left: 952px;
+    top: 58.22px;
+}
+
+
+.bottom_part{
+    /* background: #c05959; */
+    /* height: 482px; */
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 51px;
+    
+}
+
+.details{
+    width: 151.933px;
+    height: 275.52px;
+    display: flex;
+    flex-direction: column;
+    /* background: rgb(51, 153, 110); */
+    margin-top: 22px;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.date_section{
+    height: 74.83px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 100%;
+    /* background: #af59c0; */
+}
+
+.detail_heading{
+    /* align-items: center; */
+    /* justify-content: center; */
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.allbox{
+    margin-right: 34px;
+    display: flex;
+    /* overflow-x: scroll; */
+}
+.box_data{
+    display: flex;
+    flex-direction: column;
+    margin-right: 34px;
+}
+
+.box_data label{
+    margin-bottom: 5.67px;
+
+}
+
+.box-1{
+    text-align: center;
+    overflow-x: auto;
+}
+
+
+
+
